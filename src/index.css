@@ -1,0 +1,101 @@
+body {
+  margin: 20;
+  padding: 0;
+  font-family: sans-serif;
+  color: #AC3B61;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EDC7b7;
+  font-weight: 600
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 45%;
+  height: fit-content;
+  background-color: rgba(238, 226, 220, 0.5);
+  border-radius: 20px;
+  box-shadow: 5px 10px rgba(18, 60, 105, 0.7)
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.edit-button {
+  background-color: rgb(18, 60, 105);
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #AC3B61;
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: rgba(237, 199, 183, 0.747);
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.upvote-button {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(59, 70, 172);
+  color: white;
+  border-radius: 5px
+}
+
+.votes-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px
+}
+
+.votes-container p {
+  margin: 10px
+}
+
+.votes-container button {
+  vertical-align: middle
+}
+
+.post-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px
+}
+
+.post-message {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
