@@ -10,7 +10,7 @@ class Post extends Component {
                 <p className='post-message'>{this.props.post.message}</p>
                 <div className='votes-container'>
                 <button className='upvote-button' onClick={()=>this.props.dispatch({type:'UPVOTE', id:this.props.post.id})}>Good Job! :</button>
-                <p>{this.props.post.votes}</p>
+                <p>{this.props.post.votes} people think that deserved a click!</p>
                 </div>
                 <div className='button-container'>
                     <button className='edit-button' onClick={()=>this.props.dispatch({type:'EDIT_POST', id:this.props.post.id})}

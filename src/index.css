@@ -9,6 +9,16 @@ body {
   font-weight: 600
 }
 
+input {
+  width: 300px;
+  max-width: 50%;
+  padding: 5px;
+}
+
+textarea {
+  padding: 5px
+}
+
 .App {
   display: flex;
   flex-direction: row;
